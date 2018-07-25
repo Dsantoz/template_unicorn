@@ -1,0 +1,87 @@
+.unicorn {
+    font-family: $f-default;
+    height: 350px;
+
+    .container {
+        background: white;
+        height: 350px;
+        padding: 50px 0;
+
+        .icon {
+            margin-bottom: 30px;
+        }
+
+        .profile {
+            border-radius: 50% !important;
+            height: 50px;
+            margin-bottom: 30px;
+            width: 50px;
+        }
+
+        .text--cap {
+            line-height: 1.5;
+            margin: 0 20%;
+            text-align: center;
+        }
+    }
+}
+
+@media screen and (max-width: 575.98px) { 
+
+    .unicorn {
+        height: 400px !important;
+    
+        .container {
+            background: white;
+            height: 400px !important;
+            padding: 50px 0;
+    
+            .icon {
+                margin-bottom: 30px;
+            }
+    
+            .profile {
+                border-radius: 50% !important;
+                height: 100px;
+                margin-bottom: 30px;
+                width: 100px
+            }
+    
+            .text--cap {
+                line-height: 1.5;
+                margin: 0 5% !important;
+                text-align: center;
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 767.98px) { 
+
+    .unicorn {
+        height: 400px !important;
+    
+        .container {
+            background: white;
+            height: 400px !important;
+            padding: 50px 0;
+    
+            .icon {
+                margin-bottom: 30px;
+            }
+    
+            .profile {
+                border-radius: 50% !important;
+                height: 100px;
+                margin-bottom: 30px;
+                width: 100px
+            }
+    
+            .text--cap {
+                line-height: 1.5;
+                margin: 0 10% !important;
+                text-align: center;
+            }
+        }
+    }
+}

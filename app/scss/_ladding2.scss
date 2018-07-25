@@ -1,0 +1,121 @@
+.ladding2 {
+    font-family: $f-default;
+
+    .container {
+
+        .row {
+
+            .col-sm-4 {
+                padding: 50px;
+
+                .icon--box {
+                    margin: 10px;
+                }
+
+                .text--title {
+                    font-weight: bold;
+                    padding: 15px 0;
+                }
+
+                .text--cap {
+                    line-height: 1.5;
+                    text-align: justify;
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width:375.98px) {
+
+    .ladding2 {
+        font-family: $f-default;
+    
+        .container {
+    
+            .row {
+    
+                .col-sm-4 {
+                    padding: 50px;
+    
+                    .icon--box {
+                        margin: 5% 42% !important;
+                    }
+    
+                    .text--title {
+                        font-weight: bold;
+                        padding: 15px 0;
+                        text-align: center !important;
+                    }
+    
+                    .text--cap {
+                        line-height: 1.5;
+                        text-align: center !important; 
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width:575.98px) {
+
+    .ladding2 {
+        font-family: $f-default;
+    
+        .container {
+    
+            .row {
+    
+                .col-sm-4 {
+                    padding: 50px;
+    
+                    .icon--box {
+                        margin: 5% 45% !important;
+                    }
+    
+                    .text--title {
+                        font-weight: bold;
+                        padding: 15px 0;
+                        text-align: center !important;
+                    }
+    
+                    .text--cap {
+                        line-height: 1.5;
+                        text-align: center !important; 
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 767.98px) { 
+
+    .ladding2 {
+        font-family: $f-default;
+    
+        .container {
+    
+            .row {
+    
+                .col-sm-4 {
+                    padding: 50px 10px !important;
+    
+                    .icon--box {
+                        margin: 10px;
+                    }
+    
+                    .text--title {
+                        font-weight: bold;
+                        padding: 15px 0;
+                    }
+    
+                    .text--cap {
+                        line-height: 1.5;
+                    }
+                }
+            }
+        }
+    }    
+}

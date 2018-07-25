@@ -1,0 +1,176 @@
+.photography {
+    font-family: $f-default;
+    padding: 50px;
+
+    .container {
+
+        .row {
+
+            .col-sm-6 {
+                padding: 60px 80px;
+                height: 300px;
+
+                .text--date {
+                    text-align: center;
+                }
+
+                .text--title {
+                    color: black;
+                    font-size: 27px;
+                    font-weight: bold;
+                    margin: 10px 0 50px 0;
+                    text-align: center;
+                }
+
+                .text--cap {
+                    text-align: center;
+                }
+            }
+
+            .images {
+                padding: 20px !important;
+
+                .img-fluid {
+                    background-size: cover;
+                    height: 100%;
+                    width: 100%;
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 575.98px) { 
+
+    .photography {
+        padding: 50px;
+    
+        .container {
+    
+            .row {
+    
+                .col-sm-6 {
+                    padding: 0 !important;
+                    height: 370px !important;
+    
+                    .text--date {
+                        text-align: center !important;
+                    }
+    
+                    .text--title {
+                        color: black;
+                        font-size: 20px !important;
+                        font-weight: bold;
+                        margin: 10px 0 10px 0 !important;
+                        text-align: center;
+                    }
+    
+                    .text--cap {
+                        text-align: center;
+                    }
+                }
+    
+                .images {
+                    padding: 0 !important;
+                    margin-bottom: 50px;
+    
+                    .img-fluid {
+                        background-size: cover;
+                        height: 100%;
+                        width: 100%;
+                    }
+                }
+            }
+        }
+    }
+}
+
+
+@media screen and (max-width: 767.98px) { 
+
+    .photography {
+        padding: 50px;
+    
+        .container {
+    
+            .row {
+    
+                .col-sm-6 {
+                    padding: 0 !important;
+                    height: 350px !important;
+    
+                    .text--date {
+                        text-align: center !important;
+                    }
+    
+                    .text--title {
+                        color: black;
+                        font-size: 20px !important;
+                        font-weight: bold;
+                        margin: 10px 0 10px 0 !important;
+                        text-align: center;
+                    }
+    
+                    .text--cap {
+                        text-align: center;
+                    }
+                }
+    
+                .images {
+                    padding: 20px !important;
+    
+                    .img-fluid {
+                        background-size: cover;
+                        height: 100%;
+                        width: 100%;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 991.98px) { 
+
+    .photography {
+        padding: 50px;
+    
+        .container {
+    
+            .row {
+    
+                .col-sm-6 {
+                    padding: 25px 45px !important;
+                    height: 300px;
+    
+                    .text--date {
+                        text-align: center !important;
+                    }
+    
+                    .text--title {
+                        color: black;
+                        font-size: 27px;
+                        font-weight: bold;
+                        margin: 10px 0 50px 0;
+                        text-align: center;
+                    }
+    
+                    .text--cap {
+                        text-align: center;
+                    }
+                }
+    
+                .images {
+                    padding: 20px !important;
+    
+                    .img-fluid {
+                        background-size: cover;
+                        height: 100%;
+                        width: 100%;
+                    }
+                }
+            }
+        }
+    }
+}
+

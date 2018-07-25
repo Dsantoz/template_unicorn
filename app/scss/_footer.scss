@@ -1,0 +1,248 @@
+.footer {
+    background: #11100f;
+    font-family: $f-default;
+
+    .container {
+        padding: 50px 25px;
+
+        .row {
+
+            .col-sm-6 {
+                
+                .text--title {
+                    color: white;
+                    font-size: 24px;
+                    font-weight: bold;
+                    margin: 25px 0;
+                }
+
+                .text--cap {
+                    color: grey;
+                    line-height: 1.5;
+                    margin-bottom: 15px;
+                }
+
+                .login {
+
+                    .col-xs-6 {
+                        padding-left: 10px;
+
+                        form {
+
+                            .form-group {
+                               
+                                input {
+                                    background: none;
+                                    border: none;
+                                    border-bottom: 1px solid grey;
+                                    border-radius: 0%;
+                                }
+                            }
+                        }
+                    }
+
+                    .col-xs-12 {
+                        padding: 10px 0 10px 10px;
+                        width: 100%;
+
+                        input {
+                            background: none;
+                            border: none;
+                            border-bottom: 1px solid grey;
+                            border-radius: 0%;
+                            width: 81%;
+                        }
+                    }
+                }
+            }
+
+            .col-sm-2 {
+
+                .text--title {
+                    color: white;
+                    font-size: 16px;
+                    font-weight: bold;
+                    margin: 25px 0;
+                }
+
+                .text--cap {
+                    color: grey;
+                    line-height: 1.5;
+                }
+            }
+
+            .col-xs-12 {
+                padding: 10px 0 10px 10px;
+                width: 100%;
+
+                form {
+
+                    .form-group {
+
+                        .btn {
+                            background: none;
+                            color: grey;
+                            border-bottom: 1px solid grey;
+                            text-align-last: left;
+                            width: 100%;
+                        }
+                    }
+                }
+            }
+
+            .col-sm-6 {
+                
+                .text--cap {
+                    color: grey;
+                    font-size: 16px;
+                }
+
+                .nav {
+
+                    .nav-item {
+
+                        .nav-link {
+                            color: grey;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 575.98px) { 
+
+    .footer {
+        background: #11100f;
+        font-family: $f-default;
+    
+        .container {
+            padding: 50px 25px;
+    
+            .row {
+    
+                .col-sm-6 {
+                    
+                    .text--title {
+                        color: white;
+                        font-size: 24px;
+                        font-weight: bold;
+                        margin: 25px 0;
+                    }
+    
+                    .text--cap {
+                        color: grey;
+                        line-height: 1.5;
+                        margin-bottom: 15px;
+                    }
+    
+                    .login {
+    
+                        .col-xs-6 {
+                            padding-left: 10px;
+    
+                            form {
+    
+                                .form-group {
+                                   
+                                    input {
+                                        background: none;
+                                        border: none;
+                                        border-bottom: 1px solid grey;
+                                        border-radius: 0%;
+                                    }
+                                }
+                            }
+                        }
+    
+                        .col-xs-12 {
+                            padding: 10px 0 10px 10px;
+                            width: 100%;
+    
+                            input {
+                                background: none;
+                                border: none;
+                                border-bottom: 1px solid grey;
+                                border-radius: 0%;
+                                width: 81%;
+                            }
+                        }
+                    }
+                }
+    
+                .col-sm-2 {
+    
+                    .text--title {
+                        color: white;
+                        font-size: 16px;
+                        font-weight: bold;
+                        margin: 25px 0;
+                    }
+    
+                    .text--cap {
+                        color: grey;
+                        line-height: 1.5;
+                    }
+                }
+
+                .col-xs-6 {
+                    width: 50% !important;
+
+                    form {
+
+                        .form-group {
+
+                            .form-control {
+                                border-bottom: 1px solid grey;
+                            }
+                        }
+                    }
+                }
+    
+                .col-xs-12 {
+                    padding: 10px 0 10px 10px;
+                    width: 100% !important;
+    
+                    .form-control {
+                        background: none;
+                        color: grey;
+                        border-bottom: 1px solid grey;
+                        text-align-last: left;
+                    }
+                }
+
+                .col-sm-2 {
+
+                    .text--title {
+                        font-size: 16px !important;
+                        text-align: center !important;
+                    }
+
+                    .text--cap {
+                        font-size: 16px !important;
+                        text-align: center !important;
+                    }
+                }
+    
+                .col-sm-6 {
+                    
+                    .text--cap {
+                        color: grey;
+                        font-size: 12px;
+                    }
+    
+                    .nav {
+    
+                        .nav-item {
+    
+                            .nav-link {
+                                color: grey;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

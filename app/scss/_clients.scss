@@ -1,0 +1,77 @@
+.clients {
+    font-family: $f-default;
+    height: 40vh;
+
+    .container {
+        padding: 20px;
+
+        .text--title {
+            font-size: 27px;
+            font-weight: bold;
+        }
+
+        .row {
+
+            .col-xs-4 {
+                padding: 50px 0 50px 50px;
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 575.98px) { 
+
+    .clients {
+        height: 50vh;
+    
+        .container {
+            padding: 20px 5px !important;
+    
+            .text--title {
+                font-size: 27px;
+                font-weight: bold;
+            }
+    
+            .row {
+    
+                .col-xs-4 {
+                    padding: 0 !important;
+                    width: 119.3px !important;
+
+                    img {
+                        width: 100%;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 767.98px) { 
+
+    .clients {
+        height: 80vh !important;
+    
+        .container {
+            padding: 20px 5px !important;
+    
+            .text--title {
+                font-size: 27px;
+                font-weight: bold;
+            }
+    
+            .row {
+                padding: 0 13%;
+    
+                .col-xs-4 {
+                    padding: 0 !important;
+                    width: 33% !important;
+
+                    img {
+                        width: 100%;
+                    }
+                }
+            }
+        }
+    }
+}
